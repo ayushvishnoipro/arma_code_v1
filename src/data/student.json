@@ -1,0 +1,183 @@
+[
+    {
+      "name": "Aarav Sharma",
+      "roll_number": "NS101",
+      "email": "aarav.sharma@example.com",
+      "gender": "M",
+      "year_of_study": 1,
+      "stream": "Natural Sciences"
+    },
+    {
+      "name": "Ananya Iyer",
+      "roll_number": "NS102",
+      "email": "ananya.iyer@example.com",
+      "gender": "F",
+      "year_of_study": 1,
+      "stream": "Natural Sciences"
+    },
+    {
+      "name": "Rohan Gupta",
+      "roll_number": "ENG101",
+      "email": "rohan.gupta@example.com",
+      "gender": "GN",
+      "year_of_study": 1,
+      "stream": "Engineering Sciences"
+    },
+    {
+      "name": "Meera Reddy",
+      "roll_number": "ECO101",
+      "email": "meera.reddy@example.com",
+      "gender": "GN",
+      "year_of_study": 1,
+      "stream": "Economic Sciences"
+    },
+    {
+      "name": "Kabir Verma",
+      "roll_number": "NS201",
+      "email": "kabir.verma@example.com",
+      "gender": "M",
+      "year_of_study": 2,
+      "stream": "Natural Sciences",
+      "pre_majors": ["Bio", "Chm"]
+    },
+    {
+      "name": "Sanya Kapoor",
+      "roll_number": "NS202",
+      "email": "sanya.kapoor@example.com",
+      "gender": "F",
+      "year_of_study": 2,
+      "stream": "Natural Sciences",
+      "pre_majors": ["Maths", "Phy"]
+    },
+    {
+      "name": "Vikram Nair",
+      "roll_number": "ENG201",
+      "email": "vikram.nair@example.com",
+      "gender": "M",
+      "year_of_study": 2,
+      "stream": "Engineering Sciences",
+      "pre_majors": ["Engineering Sciences"]
+    },
+    {
+      "name": "Ishita Mehta",
+      "roll_number": "ECO201",
+      "email": "ishita.mehta@example.com",
+      "gender": "F",
+      "year_of_study": 2,
+      "stream": "Economic Sciences",
+      "pre_majors": ["Economic Sciences"]
+    },
+    {
+      "name": "Nikhil Rao",
+      "roll_number": "NS301",
+      "email": "nikhil.rao@example.com",
+      "gender": "M",
+      "year_of_study": 3,
+      "department": "Bio"
+    },
+    {
+      "name": "Priya Malhotra",
+      "roll_number": "NS302",
+      "email": "priya.malhotra@example.com",
+      "gender": "F",
+      "year_of_study": 3,
+      "department": "Chm"
+    },
+    {
+      "name": "Aditya Kulkarni",
+      "roll_number": "NS303",
+      "email": "aditya.kulkarni@example.com",
+      "gender": "M",
+      "year_of_study": 3,
+      "department": "Maths"
+    },
+    {
+      "name": "Sneha Das",
+      "roll_number": "NS304",
+      "email": "sneha.das@example.com",
+      "gender": "F",
+      "year_of_study": 3,
+      "department": "Phy"
+    },
+    {
+      "name": "Rahul Sen",
+      "roll_number": "ENG301",
+      "email": "rahul.sen@example.com",
+      "gender": "M",
+      "year_of_study": 3,
+      "department": "EECS"
+    },
+    {
+      "name": "Simran Kaur",
+      "roll_number": "ECO301",
+      "email": "simran.kaur@example.com",
+      "gender": "F",
+      "year_of_study": 3,
+      "department": "Economic Sciences"
+    },
+    {
+      "name": "Amit Yadav",
+      "roll_number": "NS401",
+      "email": "amit.yadav@example.com",
+      "gender": "M",
+      "year_of_study": 4,
+      "department": "DSE"
+    },
+    {
+      "name": "Pooja Bhatia",
+      "roll_number": "ENG401",
+      "email": "pooja.bhatia@example.com",
+      "gender": "F",
+      "year_of_study": 4,
+      "department": "CHE"
+    },
+    {
+      "name": "Aniket Bose",
+      "roll_number": "ECO401",
+      "email": "aniket.bose@example.com",
+      "gender": "M",
+      "year_of_study": 4,
+      "department": "Economic Sciences"
+    },
+    {
+      "name": "Ritika Singh",
+      "roll_number": "NS501",
+      "email": "ritika.singh@example.com",
+      "gender": "F",
+      "year_of_study": 5,
+      "department": "EES"
+    },
+    {
+      "name": "Varun Deshmukh",
+      "roll_number": "ENG501",
+      "email": "varun.deshmukh@example.com",
+      "gender": "M",
+      "year_of_study": 5,
+      "department": "DSE"
+    },
+    {
+      "name": "Neha Roy",
+      "roll_number": "ECO501",
+      "email": "neha.roy@example.com",
+      "gender": "F",
+      "year_of_study": 5,
+      "department": "Economic Sciences"
+    },
+    {
+      "name": "Siddharth Patel",
+      "roll_number": "MESS01",
+      "email": "siddharth.patel@example.com",
+      "gender": "M",
+      "year_of_study": 3,
+      "position": "Mess Representative"
+    },
+    {
+      "name": "Alisha Khan",
+      "roll_number": "MESS02",
+      "email": "alisha.khan@example.com",
+      "gender": "F",
+      "year_of_study": 2,
+      "position": "Mess Representative"
+    }
+  ]
+  
