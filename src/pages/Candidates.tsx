@@ -24,11 +24,7 @@ interface Candidate {
   name: string;
   position: string;
   party: string;
-  stats: {
-    year: string;
-    department: string;
-  };
-  status: "leading" | "active" | "pending" | "elected";
+  electionId: string;
 }
 
 interface ElectionGroup {

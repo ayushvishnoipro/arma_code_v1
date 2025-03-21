@@ -16,7 +16,7 @@ interface AdminSidebarProps {
 
 const sidebarItems = [
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { id: 'students', label: 'Students', icon: Users },
+  // { id: 'students', label: 'Students', icon: Users },
   { id: 'elections', label: 'Elections', icon: VoteIcon },
   { id: 'candidates', label: 'Candidates', icon: UserSquare2 },
  
