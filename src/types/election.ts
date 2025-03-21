@@ -1,13 +1,13 @@
 export interface Election {
   id: string;
   name: string;
-  description: string;
+  description?: string;
   startDate: string;
   endDate: string;
-  status: "active" | "upcoming" | "completed";
-  positions: string[];
-  eligibleYears: number[];
+  status: "upcoming" | "active" | "completed";
   totalVotes: number;
+  positions: number;
+  eligibleYears: number[];
 }
 
 export interface CreateElectionData {

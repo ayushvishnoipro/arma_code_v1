@@ -27,9 +27,10 @@ interface Election {
 interface ElectionsListProps {
   elections: Election[];
   onDelete: (id: string) => void;
+  onEdit: (election: Election) => void;
 }
 
-export const ElectionsList = ({ elections, onDelete }: ElectionsListProps) => {
+export const ElectionsList = ({ elections, onDelete, onEdit }: ElectionsListProps) => {
   const [deleteId, setDeleteId] = useState<string | null>(null);
   const { toast } = useToast();
 
@@ -68,7 +69,13 @@ export const ElectionsList = ({ elections, onDelete }: ElectionsListProps) => {
             
             <div className="flex items-center gap-2 self-end sm:self-auto">
               <Button variant="outline" size="sm">View</Button>
-              <Button variant="outline" size="sm">Edit</Button>
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => onEdit(election)}
+              >
+                Edit
+              </Button>
               <Button 
                 variant="destructive" 
                 size="sm"

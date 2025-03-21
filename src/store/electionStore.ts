@@ -4,8 +4,8 @@ import { Election } from '@/types/election';
 
 interface ElectionStore {
   elections: Election[];
-  addElection: (election: Omit<Election, "id">) => void;
-  updateElection: (id: string, election: Partial<Election>) => void;
+  addElection: (election: Election) => void;
+  updateElection: (id: string, updatedElection: Partial<Election>) => void;
   deleteElection: (id: string) => void;
 }
 
@@ -13,23 +13,25 @@ export const useElectionStore = create<ElectionStore>()(
   persist(
     (set) => ({
       elections: [],
-      addElection: (election) =>
-        set((state) => ({
-          elections: [...state.elections, { ...election, id: crypto.randomUUID() }]
+      addElection: (election) => 
+        set((state) => ({ 
+          elections: [...state.elections, election] 
         })),
-      updateElection: (id, updates) =>
+      updateElection: (id, updatedElection) =>
         set((state) => ({
           elections: state.elections.map((election) =>
-            election.id === id ? { ...election, ...updates } : election
-          )
+            election.id === id
+              ? { ...election, ...updatedElection }
+              : election
+          ),
         })),
       deleteElection: (id) =>
         set((state) => ({
-          elections: state.elections.filter((election) => election.id !== id)
+          elections: state.elections.filter((election) => election.id !== id),
         })),
     }),
     {
-      name: 'election-store'
+      name: 'election-store',
     }
   )
 );
